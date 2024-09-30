@@ -1991,7 +1991,7 @@ jobs:
           flutter-version: ${{ env.FLUTTER_VERSION }}
           cache: true
 
-      # https://rustdesk.com/docs/en/dev/build/web/
+      # https://www.fuxiaoer.top/docs/en/dev/build/web/
       - name: Build web
         shell: bash
         run: |
@@ -2007,7 +2007,7 @@ jobs:
           popd
 
           pushd flutter/web
-          wget https://github.com/rustdesk/doc.rustdesk.com/releases/download/console/web_deps.tar.gz
+          wget https://github.com/rustdesk/doc.fuxiaoer.top/releases/download/console/web_deps.tar.gz
           tar xzf web_deps.tar.gz
           popd
 

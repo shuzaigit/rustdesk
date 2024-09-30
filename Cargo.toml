@@ -1,7 +1,7 @@
 [package]
 name = "rustdesk"
 version = "1.3.2"
-authors = ["rustdesk <info@rustdesk.com>"]
+authors = ["xedesk <info@fuxiaoer.top>"]
 edition = "2021"
 build= "build.rs"
 description = "XeDesk Remote Desktop"
