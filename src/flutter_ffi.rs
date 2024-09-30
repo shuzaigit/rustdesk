@@ -1970,7 +1970,7 @@ pub fn is_outgoing_only() -> SyncReturn<bool> {
 }
 
 pub fn is_custom_client() -> SyncReturn<bool> {
-    SyncReturn(get_app_name() != "XeDesk")
+    SyncReturn(get_app_name() != "RustDesk")
 }
 
 pub fn is_disable_settings() -> SyncReturn<bool> {
