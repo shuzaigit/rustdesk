@@ -234,10 +234,10 @@ mod tests {
             "1.1.1.1.nip.io:8080"
         );
         assert_eq!(
-            ipv4_to_ipv6("www.fuxiaoer.com".to_owned(), false),
-            "www.fuxiaoer.com"
+            ipv4_to_ipv6("www.fuxiaoer.top".to_owned(), false),
+            "www.fuxiaoer.top"
         );
-        if ("www.fuxiaoer.com:80")
+        if ("www.fuxiaoer.top:80")
             .to_socket_addrs()
             .unwrap()
             .next()
